@@ -1,0 +1,8 @@
+env/
+.idea/
+.mypy_cache/
+__pycache__
+build/
+dist/
+norma43utils.egg-info/
+
