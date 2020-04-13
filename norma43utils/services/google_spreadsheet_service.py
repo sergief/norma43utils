@@ -24,6 +24,7 @@ class GoogleSpreadsheetService(Service):
 
         if self.service is None:
             raise ValueError("GoogleSpreadsheetService not properly initialized")
+
         sheet = self.service.spreadsheets()
         resource = {"majorDimension": "ROWS", "values": data}
 

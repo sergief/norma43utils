@@ -234,3 +234,5 @@ class TestService:
             },
             "valueInputOption": "USER_ENTERED",
         }
+
+        assert append.return_value.execute.invocaction_count == 1
