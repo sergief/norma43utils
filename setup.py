@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="norma43utils",
-    version="1.0.1",
+    version="1.0.2",
     license="MIT",
     author="Sergi Espinar",
     author_email="sergief@users.noreply.github.com",
@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/sergief/norma43utils",
     packages=setuptools.find_packages(),
     keywords=["norma43", "utils", "bank", "account", "n43", "csb", "google", "spreadsheets", "csv"],
-    scripts=["bin/norma43utils"],
+    scripts=["bin/norma43utils-bin"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: End Users/Desktop",

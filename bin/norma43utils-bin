@@ -4,7 +4,7 @@ import argparse
 import sys
 
 from norma43parser import DateFormat
-from norma43utils.services.google_spreadsheet_service import GoogleSpreadsheetService
+from norma43utils import GoogleSpreadsheetService
 
 parser = argparse.ArgumentParser(
     description="Reads  a norma43 formatted document, converts it and uploads it to Google Spreadsheets."
