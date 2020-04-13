@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="norma43utils",
-    version="1.0.0",
+    version="1.0.1",
     license="MIT",
     author="Sergi Espinar",
     author_email="sergief@users.noreply.github.com",
