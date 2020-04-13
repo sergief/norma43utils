@@ -124,7 +124,7 @@ class TestService:
         append = m_service.spreadsheets.return_value.values.return_value.append
 
         assert append.call_count == 1
-        assert append.call_args.kwargs == {
+        assert dict(**append.call_args.kwargs) == {
             "spreadsheetId": "spreadsheet_id",
             "range": "n43!A:F",
             "body": {
