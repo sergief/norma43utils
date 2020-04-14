@@ -14,7 +14,7 @@ The current options are:
 
 From PIP:
 ```bash
-pip install norma43utils google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install norma43utils
 ```
 
 Then, create a  OAUTH2 client credentials file `credentials.json` to use the google API from there:

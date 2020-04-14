@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="norma43utils",
-    version="1.0.3",
+    version="1.0.4",
     license="MIT",
     author="Sergi Espinar",
     author_email="sergief@users.noreply.github.com",
@@ -26,4 +26,10 @@ setuptools.setup(
         "Programming Language :: Python :: 3.8",
     ],
     python_requires=">=3.6",
+    install_requires=[
+        "norma43parser >= 1.1.2, < 2.0.0",
+        "google-api-python-client >= 1.8.0, < 1.9.0",
+        "google-auth-httplib2 >= 0.0.3, < 0.1.0",
+        "google-auth-oauthlib >= 0.4.1, < 0.5.0",
+    ],
 )
